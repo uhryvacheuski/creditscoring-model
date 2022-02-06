@@ -1,9 +1,9 @@
 # creditscoring-model
 Application of different classification algorithms to model credit score
 
-Data soruce: https://www.kaggle.com/brycecf/give-me-some-credit-dataset
+<b>Data soruce:</b> https://www.kaggle.com/brycecf/give-me-some-credit-dataset
 
-Data set consist of following variables: 
+<b>Data set consist of following variables: </b>
 
  - SeriousDlqin2yrs - Person experienced 90 days past due delinquency or worse (Target)
  - RevolvingUtilizationOfUnsecuredLines - Total balance on credit cards and personal lines of credit except real estate and no installment debt like car loans divided by the sum of credit limits
@@ -17,9 +17,9 @@ Data set consist of following variables:
  - NumberOfTime60-89DaysPastDueNotWorse - Number of times borrower has been 60-89 days past due but no worse in the last 2 years.
  - NumberOfDependents - Number of dependents in family excluding themselves (spouse, children etc.)
 
-Metric: ROC-AUC
+<b>Metric:</b> ROC-AUC
 
-Metrics best value: 0.755349
+<b>Metrics best value:</b> 0.755349
 
 Due to imbalanced data applied undersampling with helps to increase metric value
 
